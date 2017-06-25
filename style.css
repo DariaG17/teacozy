@@ -59,7 +59,7 @@ a {
     text-align: center;
 }
 
-.text-stripe {
+.text-line {
   width: 100%;
   display: flex;
   background-color: black;
@@ -150,6 +150,8 @@ a {
 #locations {
   text-align: center;
   display: flex;
+  width: auto;
+  margin: auto;
 }
 
 .background-img {
