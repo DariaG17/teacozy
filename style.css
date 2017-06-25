@@ -1,0 +1,211 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0;
+}
+
+/*header*/
+
+.header {
+  height: 69px;
+  width: 158%;
+  display: flex;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  padding: 10px;
+  z-index: 10;
+}
+
+img {
+  height: 50px;
+  opacity: 0.9;
+  padding: 10px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto;
+}
+
+nav span{
+  justify-content: flex-end;
+}
+
+a {
+  text-decoration: underline;
+  list-style-type: none;
+  opacity: 0.9;
+  padding: 20px;
+  display: flex;
+  margin: 0;
+  flex: 1;
+}
+
+/* main-story */
+
+.main-story {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+}
+
+.text-stripe {
+  width: 100%;
+  display: flex;
+  background-color: black;
+}
+
+
+ .background-image {
+  width: 1200px;
+  height: 700px;
+  background-image: url("./ressources/img-mission-background.jpg");
+  margin: 0 auto;
+  display: block;
+}
+
+
+#main-image {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*month-stories*/
+
+.month-stories {
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  height: auto;
+  padding: 60px 0px;
+  margin: auto;
+  opacity: 0.9;
+  }
+
+.month-header {
+  padding: 10px 0px;
+  background-color: black;
+  opacity: 0.9;
+  width: 100%;
+}
+
+.month-header h2 {
+  justify-content: center;
+  display: flex;
+}
+
+.month-header h4 {
+  justify-content: center;
+  display: flex;
+}
+
+.small-images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1000px;
+}
+
+.image img {
+  width: 300px;
+  height: 200px;
+}
+
+.image h4 {
+  margin-top: 10px;
+  justify-content: center;
+  display: flex;
+  opacity: 0.9;
+}
+
+/*locations-section*/
+
+.location-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 1200px;
+  height: auto;
+  opacity: 1;
+  padding: 34px;
+}
+
+#locations {
+  text-align: center;
+  display: flex;
+}
+
+.background-img {
+  width: 1200px;
+  height: 530px;
+  background-image: url("./ressources/img-locations-background.jpg");
+  margin: 0 auto;
+  display: block;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.location-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 300px;
+  height: 200px;
+  background-color: black;
+  position: center;
+}
+
+#location_header {
+  margin: auto;
+  background: transparent;
+  padding: 0px;
+}
+
+#location-address {
+  opacity: 1;
+  text-align: center;
+  display: flex;
+  margin: 0;
+
+}
+
+#location-title {
+  background-color: transparent;
+  color: seashell;
+  text-align: center;
+  opacity: 1;
+}
+
+/*footer*/
+
+.contact {
+  text-align: center;
+}
+
+.copyright {
+  padding-left: 20px;
+  text-align: left;
+}
