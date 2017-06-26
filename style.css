@@ -5,6 +5,7 @@ body {
   background-color: black;
   opacity: 0.9;
   margin: 0;
+  text-align: center;
 }
 
 /*header*/
@@ -52,11 +53,10 @@ a {
 /* main-story */
 
 .main-story {
-    flex-direction: row;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    text-align: center;
+padding-top: 69px;
+opacity: 0.9;
+width: 1200px;
+margin: auto;
 }
 
 .text-line {
@@ -65,8 +65,7 @@ a {
   background-color: black;
 }
 
-
- .background-image {
+.background-image {
   width: 1200px;
   height: 700px;
   background-image: url("./ressources/img-mission-background.jpg");
@@ -135,70 +134,29 @@ a {
 
 /*locations-section*/
 
+#locations {
+  background-image: url("./ressources/img-locations-background.jpg");
+  height: 500px;
+  padding-top: 40px;
+  margin: auto;
+  width: 1000px;
+}
+
 .location-container {
   display: flex;
-  flex-flow: row wrap;
   justify-content: center;
-  align-content: center;
-  align-items: center;
-  width: 1200px;
-  height: auto;
-  opacity: 1;
-  padding: 34px;
-}
-
-#locations {
-  text-align: center;
-  display: flex;
-  width: auto;
-  margin: auto;
-}
-
-.background-img {
-  width: 1200px;
-  height: 530px;
-  background-image: url("./ressources/img-locations-background.jpg");
-  margin: 0 auto;
-  display: block;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  margin: auto;
+  text-wrap: wrap;
 }
 
 .location-box {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  text-align: center;
-  width: 300px;
-  height: 200px;
+  justify-content: center;
+  flex-basis: 280px;
+  padding: 10px;
+  margin: 5px 20px;
+  opacity: 1.0;
   background-color: black;
-  position: center;
-}
-
-#location_header {
-  margin: auto;
-  background: transparent;
-  padding: 0px;
-}
-
-#location-address {
-  opacity: 1;
-  text-align: center;
-  display: flex;
-  margin: 0;
-
-}
-
-#location-title {
-  background-color: transparent;
-  color: seashell;
-  text-align: center;
-  opacity: 1;
 }
 
 /*footer*/
@@ -210,4 +168,5 @@ a {
 .copyright {
   padding-left: 20px;
   text-align: left;
+  display: flex;
 }
